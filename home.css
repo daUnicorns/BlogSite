@@ -6,7 +6,7 @@ body {
   color: black;
 }
 .logo{
-  height: 100%;
+  width: 10em;
 }
 .navbar {
   border: none;
@@ -18,4 +18,9 @@ body {
   background-image: none;
   background-color: #99e6ff;
   padding: auto;
+}
+.navbar-inverse .navbar-nav>li>a {
+  font-size:4em
+  color: #3e3e28;
+  padding: 0.5em
 }
