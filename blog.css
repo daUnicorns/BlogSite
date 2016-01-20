@@ -10,6 +10,22 @@ body {
   margin-bottom: 80px;
 }
 
+/******************* info links *******************/
+
+.info {
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  display: block;
+  margin-top: -100px;
+  opacity: 0;
+}
+
+.linkedIn img, .github img, .codewars img {
+  height: 45px;
+  width: 45px;
+}
+
 /****************** rotate animation **************/
 
 .flip-container:hover .flipper {
@@ -22,6 +38,7 @@ height: 300px;
 margin-right: auto;
 margin-left: auto;
 display: block;
+cursor: pointer;
 }
 
 .flipper {
@@ -66,16 +83,4 @@ left: 25%;
 position: absolute;
 text-shadow: 0.1em 0.1em 0.05em #333;
 transform: rotate(-20deg);
-}
-
-.linkedIn img, .github img, .codewars img {
-  height: 45px;
-  width: 45px;
-}
-
-.info {
-  margin-left: auto;
-  margin-right: auto;
-  width: 180px;
-  display: block;
 }
