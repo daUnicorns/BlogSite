@@ -1,0 +1,51 @@
+.flip-container:hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+width: 320px;
+height: 427px;
+margin-right: auto;
+margin-left: auto;
+display: block;
+}
+
+.flipper {
+transition: 0.6s;
+transform-style: preserve-3d;
+position: relative;
+}
+
+.front, .back {
+backface-visibility: hidden;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+/*.front {*/
+/*background: url(https://tinycupcakesstore.files.wordpress.com/2015/03/cupcakes.jpg) 0 0 no-repeat;*/
+/*z-index: 2;*/
+/*}*/
+
+.back {
+transform: rotateY(180deg);
+  /*background: url(http://davidwalsh.name/demo/dwflip.jpg);*/
+  /*background-repeat: no-repeat;*/
+/*z-index: 2;*/
+}
+
+.front .name {
+font-size: 2em;
+display: inline-block;
+background: rgba(33, 33, 33, 0.9);
+color: #f8f8f8;
+font-family: Courier;
+padding: 5px 10px;
+border-radius: 5px;
+bottom: 60px;
+left: 25%;
+position: absolute;
+text-shadow: 0.1em 0.1em 0.05em #333;
+transform: rotate(-20deg);
+}
