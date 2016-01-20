@@ -5,7 +5,9 @@
 .flip-container, .front, .back {
 width: 320px;
 height: 427px;
-background-size: 320px 427px;
+margin-right: auto;
+margin-left: auto;
+display: block;
 }
 
 .flipper {
