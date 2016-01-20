@@ -2,11 +2,10 @@
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #ffffe5;
-  font-size: 6em;
-  color: black;
+  font-size: 2em;
 }
 .logo{
-  width: 10em;
+  width: 13em;
 }
 .navbar {
   border: none;
@@ -17,10 +16,9 @@ body {
 .navbar.navbar-inverse {
   background-image: none;
   background-color: #99e6ff;
-  padding: auto;
 }
 .navbar-inverse .navbar-nav>li>a {
-  font-size:4em
+  font-size:2em
   color: #3e3e28;
-  padding: 0.5em
+  padding: 2em
 }
