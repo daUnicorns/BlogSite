@@ -1,0 +1,21 @@
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #ffffe5;
+  font-size: 6em;
+  color: black;
+}
+.logo{
+  height: 100%;
+}
+.navbar {
+  border: none;
+}
+.navbar-brand{
+  height: 5em;
+}
+.navbar.navbar-inverse {
+  background-image: none;
+  background-color: #99e6ff;
+  padding: auto;
+}
