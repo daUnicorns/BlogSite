@@ -16,13 +16,14 @@ body {
   margin-right: auto;
   width: 200px;
   display: block;
-  /*margin-top: -100px;*/
   opacity: 1;
+  margin-top: 20px;
 }
 
 .linkedIn img, .github img, .codewars img {
   height: 45px;
   width: 45px;
+  padding: 0 5px 0 12px;
 }
 
 /****************** rotate animation **************/
@@ -52,23 +53,20 @@ position: absolute;
 top: 0;
 left: 0;
 }
+
 .front img, .back img {
   width: 100%;
   height: 100%;
-  border: 4px solid lightblue;
+  border: 7px solid lightblue;
   border-radius: 16px;
 }
 
-/*.front {*/
-/*background: url(https://tinycupcakesstore.files.wordpress.com/2015/03/cupcakes.jpg) 0 0 no-repeat;*/
-/*z-index: 2;*/
-/*}*/
+.front img {
+  margin-left: -14px;
+}
 
 .back {
 transform: rotateY(180deg);
-  /*background: url(http://davidwalsh.name/demo/dwflip.jpg);*/
-  /*background-repeat: no-repeat;*/
-/*z-index: 2;*/
 }
 
 .front .name {
@@ -87,6 +85,11 @@ transform: rotate(-20deg);
 }
 
 /****************** Summary style ****************/
+
+.space {
+  height: 100px;
+}
+
 .column-8 {
   margin-left: auto;
   margin-right: auto;
@@ -97,14 +100,22 @@ transform: rotate(-20deg);
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
-  margin-bottom: 100px;
-
+  margin-bottom: 60px;
 }
 
 .column-12 h2  {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 75px;
+  margin-bottom: 35px;
+  font-family: 'Candal', sans-serif;
+  color: #FCFFAD;
+}
+
+div:nth-child(3) > div.top > div {
+  background-color: rgba(228, 180, 209, 0.7);
+  border-radius: 25px;
+  margin-bottom: 80px;
 }
 
 .coming {

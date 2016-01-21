@@ -12,6 +12,10 @@ body {
   background-color: #99e6ff;
   height: 110px;
   box-shadow: 2px 1px 14px #888888;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
 }
 .navbar a {
   font-size: 1.5em;
