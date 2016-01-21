@@ -17,7 +17,7 @@ body {
   width: 200px;
   display: block;
   opacity: 1;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .linkedIn img, .github img, .codewars img {
@@ -70,18 +70,19 @@ transform: rotateY(180deg);
 }
 
 .front .name {
-font-size: 25px;
+font-size: 21px;
 display: inline-block;
-background: rgba(33, 33, 33, 0.9);
+background: rgba(33, 33, 33, 0.8);
 color: #f8f8f8;
 font-family: Courier;
 padding: 5px 10px;
 border-radius: 5px;
-bottom: 60px;
+bottom: 30px;
 left: 25%;
 position: absolute;
 text-shadow: 0.1em 0.1em 0.05em #333;
-transform: rotate(-20deg);
+transform: rotate(-18deg);
+margin-right: 17px;
 }
 
 /****************** Summary style ****************/
