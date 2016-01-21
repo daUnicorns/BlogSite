@@ -4,10 +4,7 @@
   clear: both;
   padding: 20px;
 }
-.border {
-  text-align: center;
-  border: 1px solid orange;
-}
+
 .column-1 {
   display: block;
   float: left;
