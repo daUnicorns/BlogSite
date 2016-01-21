@@ -59,10 +59,14 @@ body {
 body > nav > div > h3:nth-child(2) {
   margin-left: -66px;
 }
+<<<<<<< HEAD
+/*.home-image img{
+=======
 .home-image img {
+>>>>>>> master
   width:100%;
   z-index: -1;
-}
+}*/
 
 .image-wrapper {
   position:relative;
@@ -70,6 +74,18 @@ body > nav > div > h3:nth-child(2) {
   height: 0;
 }
 
-.home-image {
+.home-image{
+  position:relative;
   width:100%;
+  margin-top:110px;
+}
+
+.blog-content article{
+  margin-bottom: 100px;
+  padding: 2em 4em;
+  border: 1px solid black;
+  border-radius: 2em;
+}
+.blog-content{
+  margin:5% 15%;
 }
