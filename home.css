@@ -1,7 +1,8 @@
 
 body {
-font-family: 'Raleway', sans-serif;
-  background-color: #ffffe5;
+  font-family: 'Raleway', sans-serif;
+  background-color: #fcffad;
+  background-image: url("http://www.transparenttextures.com/patterns/skulls.png");
   margin: 0;
 }
 .logo{
@@ -10,6 +11,7 @@ font-family: 'Raleway', sans-serif;
 .navbar {
   background-color: #99e6ff;
   height: 110px;
+  box-shadow: 2px 1px 14px #888888;
 }
 .navbar a {
   font-size: 1.5em;
@@ -31,8 +33,14 @@ font-family: 'Raleway', sans-serif;
 .navbar img {
   display: inline;
   float: left;
+  width: 19%;
+  transform: rotate(-21deg);
+  margin-top: -20px;
 }
 .nav-links {
   padding-top: 13px;
   margin-left: 60px;
+}
+body > nav > div > h3:nth-child(2) {
+  margin-left: -66px;
 }
