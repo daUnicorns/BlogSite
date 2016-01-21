@@ -1,24 +1,38 @@
 
 body {
-  font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
   background-color: #ffffe5;
-  font-size: 2em;
+  margin: 0;
 }
 .logo{
-  width: 13em;
+  width: 7em;
 }
 .navbar {
-  border: none;
-}
-.navbar-brand{
-  height: 5em;
-}
-.navbar.navbar-inverse {
-  background-image: none;
   background-color: #99e6ff;
+  height: 110px;
 }
-.navbar-inverse .navbar-nav>li>a {
-  font-size:2em
-  color: #3e3e28;
-  padding: 2em
+.navbar a {
+  font-size: 1.5em;
+  color: #C3A3B6;
+  padding: 2em;
+  text-decoration: none;
+  text-shadow: rgb(216, 210, 210) 4px 3px 0px;
+  font-family: 'Candal', sans-serif;
+}
+.navbar a:hover {
+  color: white;
+}
+.navbar h3 {
+  display: inline-block;
+}
+.navbar h3 {
+  display: inline-block;
+}
+.navbar img {
+  display: inline;
+  float: left;
+}
+.nav-links {
+  padding-top: 13px;
+  margin-left: 60px;
 }
