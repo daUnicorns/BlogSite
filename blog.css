@@ -106,3 +106,13 @@ transform: rotate(-20deg);
   margin-top: 50px;
   margin-bottom: 75px;
 }
+
+.coming {
+  font-size: 100px;
+  transform: rotate(-45deg);
+  text-align: center;
+  margin-top: 25%;
+  text-shadow: rgb(216, 210, 210) 10px 10px 0px;
+  font-family: 'Candal', sans-serif;
+  color: #C3A3B6;
+}
