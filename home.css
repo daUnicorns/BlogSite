@@ -59,14 +59,6 @@ body {
 body > nav > div > h3:nth-child(2) {
   margin-left: -66px;
 }
-<<<<<<< HEAD
-/*.home-image img{
-=======
-.home-image img {
->>>>>>> master
-  width:100%;
-  z-index: -1;
-}*/
 
 .image-wrapper {
   position:relative;
