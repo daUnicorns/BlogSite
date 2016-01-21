@@ -7,11 +7,25 @@ body {
 }
 .logo{
   width: 7em;
+  z-index:9999;
+  /*display: inline;*/
+  float: left;
+  width: 19%;
+  transform: rotate(-21deg);
+  margin-top: -20px;
+  position: absolute;
+  left:0;
+  top:0;
+
 }
 .navbar {
   background-color: #99e6ff;
   height: 110px;
   box-shadow: 2px 1px 14px #888888;
+}
+.navbar-links{
+
+
 }
 .navbar a {
   font-size: 1.5em;
@@ -30,17 +44,28 @@ body {
 .navbar h3 {
   display: inline-block;
 }
-.navbar img {
-  display: inline;
-  float: left;
-  width: 19%;
-  transform: rotate(-21deg);
-  margin-top: -20px;
-}
 .nav-links {
   padding-top: 13px;
   margin-left: 60px;
 }
+
+.navbar-links{
+  margin-left: 20%;
+}
 body > nav > div > h3:nth-child(2) {
   margin-left: -66px;
+}
+.home-image img{
+  width:100%;
+  z-index: -1;
+}
+
+.image-wrapper{
+  position:relative;
+  width: 100%;
+}
+
+.home-image{
+  width:100%;
+
 }
