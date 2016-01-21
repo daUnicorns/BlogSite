@@ -87,3 +87,24 @@ position: absolute;
 text-shadow: 0.1em 0.1em 0.05em #333;
 transform: rotate(-20deg);
 }
+
+/****************** Summary style ****************/
+.column-8 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-12 p {
+  font-size: 20px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 100px;
+
+}
+
+.column-12 h2  {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
