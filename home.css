@@ -6,11 +6,9 @@ body {
   margin: 0;
 }
 .logo{
-  width: 7em;
   z-index:9999;
-  /*display: inline;*/
   float: left;
-  width: 19%;
+  width: 9em;
   transform: rotate(-21deg);
   margin-top: -20px;
   position: absolute;
@@ -72,4 +70,21 @@ body > nav > div > h3:nth-child(2) {
 
 .home-image {
   width:100%;
+}
+@media screen and (max-width: 1035px) {
+   .navbar a { font-size: 23px; }
+ }
+ @media screen and (max-width: 860px) {
+  .navbar a { font-size: 23px;
+    padding: 25px; }
+  .column-12 p { padding: 0 35px; }
+  .coming { margin-top: 36%; }
+}
+@media screen and (max-width: 702px) {
+  .navbar a {
+    font-size: 19px;
+    padding: 11px;
+  }
+  .nav-links { padding-left: 0px; }
+
 }
