@@ -3,11 +3,10 @@
 ## What?
 We will be creating a team blog where we can introduce ourselves, blog about our work and to share useful and interesting information. 
 
-**Pages**
+##Pages
 * Blog page - home page with blog
 * Profile page - Spinning spaces with links 
-* Useful Stuff - generic name given to page with which we will share "useful stuff"
-* contact us - coming soon
+* Contact us - coming soon
 
 ## How?
 1. Wireframed and researched into cool blog formats for 
@@ -18,7 +17,7 @@ We will be creating a team blog where we can introduce ourselves, blog about our
 ## Stretch goals 
 * A Knowledgebase where we can add useful reading material that we all find useful.
 * Make the website more responsive
-* Add a contact us page 
+* Make a contact us form which will send us all emails.  
 
 ## Learning outcomes
 * EVERYTHING (well for Rob and Ellie)
